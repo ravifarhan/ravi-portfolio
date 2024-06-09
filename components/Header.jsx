@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Navbar from "./Navbar";
 import { Button } from "./ui/button";
+import MobileNavbar from "./MobileNavbar";
 
 const Header = () => {
   return (
@@ -22,7 +23,7 @@ const Header = () => {
 
         {/* Navbar Mobile */}
         <div className="xl:hidden">
-          <Navbar />
+          <MobileNavbar />
         </div>
       </div>
     </header>
