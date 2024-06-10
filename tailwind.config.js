@@ -20,16 +20,15 @@ module.exports = {
       xl: "1200px",
     },
     fontFamily: {
-      primary: "var(--font-jetbrainsMono)",
+      primary: "var(--font-firaMono)",
     },
     extend: {
-
       colors: {
-        primary: "#1c1c22",
+        primary: "#121212",
         accent: {
-          DEFAULT: "#00ff99",
-          hover: "#00e187"
-        }
+          DEFAULT: "#00ADB5",
+          hover: "#009297",
+        },
       },
 
       keyframes: {
