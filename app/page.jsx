@@ -1,5 +1,4 @@
 import { FiEye } from "react-icons/fi";
-import { Button } from "@/components/ui/button";
 
 //components
 import SocialMedia from "@/components/SocialMedia";
